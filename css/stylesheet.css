@@ -1,0 +1,14 @@
+
+.container {
+  display: flex;
+  justify-content: first baseline;
+}
+
+.left-content {
+  width: 600px;
+  height: 782px;
+  background-image: url(../img/Landshaft-background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
