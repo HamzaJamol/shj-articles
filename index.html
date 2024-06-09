@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sayohat haqida sayt</title>
 
+  <!-- GOOGLE-FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <!-- LINKS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
+
   <main class="main-content">
     <div class="global-wrapper">
 
@@ -26,91 +32,128 @@
             </a>
           </div>
         </section>
-      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!--
-      <div class="container">
-        <section class="left-content">
-          <div class="hero">
-            <h2 class="hero-heading">
-              Sayohat haqidagi eng qiziq
-              bloglarni kuzatib boring.</h2>
-              <button class="hero-button">
-                <span class="hero-button-heading">
-                  <img class="hero-button-img" src="" alt="">
-                  <span class="hero-button-text">top bloglar</span>
-                </span>
-              </button>
-            </div>
-          </section>
-
-          <section class="right-content">
-            <div class="right-content-container">
-              <div class="site-holder">
-                <h2 class="site-holder-heading">Eng so’nggi videolar</h2>
-
-                <div class="site-holder-item">
-                  <img src="img/forest-home.jpg" alt="house-forest" width="160" height="90">
-                  <div class="site-holder-article">
-                    <h3>O’rmonda uchburchaksimon uy qurdik</h3>
-                    <footer class="site-holder-article-footer">
-                      <span class="">1 hafta oldin</span>
-                      <span>873 ming</span>
-                    </footer>
-                  </div>
-                </div>
-
-                <div class="site-holder-item">
-                  <img src="img/lake.jpg" alt="lake" width="160" height="90">
-                  <div class="site-holder-article">
-                    <h3>Sibirliklarning qoldirib ketilgan uychalari</h3>
-                    <footer class="site-holder-article-footer">
-                      <span class="">3 hafta oldin</span>
-                      <span>819 ming</span>
-                    </footer>
-                  </div>
-                </div>
-
-                <div class="site-holder-item">
-                  <img src="img/man-dog.jpg" alt="man width dog" width="160" height="90">
-                  <div class="site-holder-article">
-                    <h3>Yer-uyida mallarang kuchugim bilan tunab qoldik</h3>
-                    <footer class="site-holder-article-footer">
-                      <span class="">1 oy oldin</span>
-                      <span>3.9 million</span>
-                    </footer>
+        <!-- LATEST-VIDEOS -->
+        <section class="latest-videos">
+          <h2 class="latest-videos-heading">Eng so'nggi videolar</h2>
+          <hr class="latest-videos-divider">
+          <ul class="latest-videos-list">
+            <!-- ITEM -->
+            <li class="latest-videos-item">
+              <div class="item-latest-videos">
+                <img class="item-latest-videos-img" src="img/forest-home.jpg" alt="house-forest" width="160" height="90" srcset="img/forest-home@2x.jpg 2x">
+                <div class="item-latest-videos-info">
+                  <h3 class="item-latest-videos-heading">
+                    <a class="item-latest-videos-link" href="#">O’rmonda uchburchaksimon uy qurdik</a>
+                  </h3>
+                  <div class="item-latest-videos-meta">
+                    <time
+                    class="item-latest-videos-published-at" datetime="2021-09-23">1 hafta oldin</time
+                    >
+                    <div class="item-latest-video-views">873 ming</div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        </div> -->
+            </li>
 
-      </main>
+            <!-- ITEM -->
+            <li class="latest-videos-item">
+              <div class="item-latest-videos">
+                <img class="item-latest-videos-img" src="img/lake.jpg" alt="siberia lake" width="160" height="90" srcset="img/lake@2x.jpg 2x">
+                <div class="item-latest-videos-info">
+                  <h3 class="item-latest-videos-heading">
+                    <a class="item-latest-videos-link" href="#">Sibirliklarning qoldirib ketilgan uychalari</a>
+                  </h3>
+                  <div class="item-latest-videos-meta">
+                    <time
+                    class="item-latest-videos-published-at" datetime="2021-09-23">3 hafta oldin</time
+                    >
+                    <div class="item-latest-video-views">819 ming</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+              <!-- ITEM -->
+              <li class="latest-videos-item">
+                <div class="item-latest-videos">
+                  <img class="item-latest-videos-img" src="img/man-dog.jpg" alt="man dog " width="160" height="90" srcset="img/man-dog-2.jpg">
+                  <div class="item-latest-videos-info">
+                    <h3 class="item-latest-videos-heading">
+                      <a class="item-latest-videos-link" href="#">Yer-uyida mallarang kuchugim bilan tunab qoldik</a>
+                    </h3>
+                    <div class="item-latest-videos-meta">
+                      <time
+                      class="item-latest-videos-meta-item item-latest-videos-meta-item-published-at" datetime="2021-08-26">1 oy oldin</time
+                      >
+                      <div class="item-latest-videos-meta-item item-latest-videos-meta-item-views">4.2 million</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          </ul>
+
+          <button class="load-more-button" type="button">Yana yuklash</button>
+
+        </section>
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+
+              <div class="site-holder-item">
+                <img src="img/lake.jpg" alt="lake" width="160" height="90">
+                <div class="site-holder-article">
+                  <h3>Sibirliklarning qoldirib ketilgan uychalari</h3>
+                  <footer class="site-holder-article-footer">
+                    <span class="">3 hafta oldin</span>
+                    <span>819 ming</span>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="site-holder-item">
+                <img src="img/man-dog.jpg" alt="man width dog" width="160" height="90">
+                <div class="site-holder-article">
+                  <h3>Yer-uyida mallarang kuchugim bilan tunab qoldik</h3>
+                  <footer class="site-holder-article-footer">
+                    <span class="">1 oy oldin</span>
+                    <span>3.9 million</span>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div> -->
+
     </body>
     </html>
